@@ -6,19 +6,6 @@ return array(
             'Album\Controller\Album' => 'Album\Controller\AlbumController',
         ),
     ),
-    'view_manager' => array(
-        'template_path_stack' => array(
-            'album' => __DIR__ . '/../view',
-        ),
-    ),
-);
-
-return array(
-    'controllers' => array(
-        'invokables' => array(
-            'Album\Controller\Album' => 'Album\Controller\AlbumController',
-        ),
-    ),
     // Sección nueva donde definimos las reglas de ruteo y el ruteado principal
     'router' => array(
         'routes' => array(
